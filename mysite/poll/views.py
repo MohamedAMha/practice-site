@@ -1,5 +1,20 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from .models import Question
 
 def index(request):
-    return HttpResponse("Dis da index payge. oh yeah, oh yeah, wee woo we woo")
+    latest_question_list = Question.object.order_by("-pub_data")[:5]
+    context = {
+        "latest_question_list": latest_question_list,
+    }
+    return render(request, "polls/index.html", context)
+
+def detail(request, question_id):
+    return HttpResponse("You're looking at question %s." % question_id)
+
+def result(request, question_id):
+    response = " These are the responses to the question %s."
+    return HttpResponse(response % question_id)
+
+def vote(request, question_id):
+    return HttpResponse("you're responding to the question %s." % question_id)
