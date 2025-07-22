@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54505223-a43f-4e15-b8d4-968c19431864" name="Changes" comment="Apparently it wasn't fleas, but scabbies.&#10;Also completed part 2-3 for django at a glance a 2nd time">
-      <change afterPath="$PROJECT_DIR$/mysite/poll/templates/poll/details.html" afterDir="false" />
+    <list default="true" id="54505223-a43f-4e15-b8d4-968c19431864" name="Changes" comment="A lot of errors in views.py&#10;And there is too much to wrap my head around when it comes to template form writing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/poll/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/poll/templates/poll/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/poll/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/poll/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/poll/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/poll/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +80,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753103968106</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="A lot of errors in views.py&#10;And there is too much to wrap my head around when it comes to template form writing">
+      <option name="closed" value="true" />
+      <created>1753143029694</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1753143029695</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,6 +106,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Instead of ants, I'm being terrorized by fucking fleas." />
     <MESSAGE value="Apparently it wasn't fleas, but scabbies.&#10;Also completed part 2-3 for django at a glance a 2nd time" />
-    <option name="LAST_COMMIT_MESSAGE" value="Apparently it wasn't fleas, but scabbies.&#10;Also completed part 2-3 for django at a glance a 2nd time" />
+    <MESSAGE value="A lot of errors in views.py&#10;And there is too much to wrap my head around when it comes to template form writing" />
+    <option name="LAST_COMMIT_MESSAGE" value="A lot of errors in views.py&#10;And there is too much to wrap my head around when it comes to template form writing" />
   </component>
 </project>
