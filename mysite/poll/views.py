@@ -5,7 +5,7 @@ from django.urls import reverse
 from .models import Question, Choice
 
 def index(request):
-    latest_question_list = Question.object.order_by("-pub_data")[:5]
+    latest_question_list = Question.objects.order_by("-pub_date")[:5]
     context = {
         "latest_question_list": latest_question_list,
     }
