@@ -1,0 +1,8 @@
+<h1>{{ question.question_text }}</h1>
+<ul>
+    {% for choice in question.choice_set_all %}
+        # choice_set_all comes from view, and in views it comes from db
+        <li>{{ question.choice_text}} -- {{ choice.votes }} vote{{ choices.votes|pluralize }}</li>
+    {% endfor %}
+</ul>
+<a href="{% url 'poll:detail' question.id %}">Vote again?</a>

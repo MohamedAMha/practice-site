@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54505223-a43f-4e15-b8d4-968c19431864" name="Changes" comment="Instead of ants, I'm being terrorized by fucking fleas.">
-      <change afterPath="$PROJECT_DIR$/mysite/poll/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/poll/templates/index.html" afterDir="false" />
+    <list default="true" id="54505223-a43f-4e15-b8d4-968c19431864" name="Changes" comment="Apparently it wasn't fleas, but scabbies.&#10;Also completed part 2-3 for django at a glance a 2nd time">
+      <change afterPath="$PROJECT_DIR$/mysite/poll/templates/poll/details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/poll/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/poll/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/poll/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/poll/templates/poll/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/poll/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/poll/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/poll/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/poll/views.py" afterDir="false" />
     </list>
@@ -50,6 +47,11 @@
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\monke\PycharmProjects\django_practice_2\mysite\poll\templates\poll" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -74,7 +76,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752787375929</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Apparently it wasn't fleas, but scabbies.&#10;Also completed part 2-3 for django at a glance a 2nd time">
+      <option name="closed" value="true" />
+      <created>1753103968106</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1753103968106</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -91,6 +101,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Instead of ants, I'm being terrorized by fucking fleas." />
-    <option name="LAST_COMMIT_MESSAGE" value="Instead of ants, I'm being terrorized by fucking fleas." />
+    <MESSAGE value="Apparently it wasn't fleas, but scabbies.&#10;Also completed part 2-3 for django at a glance a 2nd time" />
+    <option name="LAST_COMMIT_MESSAGE" value="Apparently it wasn't fleas, but scabbies.&#10;Also completed part 2-3 for django at a glance a 2nd time" />
   </component>
 </project>

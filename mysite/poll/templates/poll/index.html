@@ -1,4 +1,7 @@
-{% if latest_question_list %} <! -- this variable comes from views -->
+{% if latest_question_list %}
+  {% comment %}
+    "latest_question_list" variable is from views.py
+  {% endcomment %}
   <ul>
       {% for question in latest_question_list %}
       <li>
