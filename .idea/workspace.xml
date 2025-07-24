@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54505223-a43f-4e15-b8d4-968c19431864" name="Changes" comment="Something wrong with detail.html or views.detail, not sure. For some reason index template rendering it is causing an error.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="54505223-a43f-4e15-b8d4-968c19431864" name="Changes" comment="I can't believe the index.html error was just &quot;poll:detail&quot; instead of &quot;detail&quot;">
       <change beforePath="$PROJECT_DIR$/mysite/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/poll/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/poll/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753378560105</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="I can't believe the index.html error was just &quot;poll:detail&quot; instead of &quot;detail&quot;">
+      <option name="closed" value="true" />
+      <created>1753389428598</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1753389428598</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,6 +142,7 @@
     <MESSAGE value="Brush, all I had to do was import Choice" />
     <MESSAGE value="Just finished my notes on the db part 2 part" />
     <MESSAGE value="Something wrong with detail.html or views.detail, not sure. For some reason index template rendering it is causing an error." />
-    <option name="LAST_COMMIT_MESSAGE" value="Something wrong with detail.html or views.detail, not sure. For some reason index template rendering it is causing an error." />
+    <MESSAGE value="I can't believe the index.html error was just &quot;poll:detail&quot; instead of &quot;detail&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="I can't believe the index.html error was just &quot;poll:detail&quot; instead of &quot;detail&quot;" />
   </component>
 </project>
