@@ -13,7 +13,7 @@ def index(request):
     return render(request, template, context)
 
 def detail(request, question_id):
-    question = get_object_or_404(Question, pk=question_id)
+    question = get_object_or_404(Question.question_text, pk=question_id)
 
 
 def result(request, question_id):

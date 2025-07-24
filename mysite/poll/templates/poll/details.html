@@ -5,8 +5,7 @@
             <h1>{{ question.question_text }}</h1>
         </legend>
             {% if error_message %}<p><strong>{{ error_message }}</strong></p>
-                <! -- I need to go back and write the error code in views,
-                otherwise these variables don't make sense -->
+                <! -- I need to go back and write the error code in views, otherwise these variables don't make sense -->
             {% for choice in question.choice_set_all %}
                 <! -- Again, another variable I need to specify in views -->
             <input type="radio" name="choice" id="choice{{ forloop.counter }}" value="{{ choice.id }}">
