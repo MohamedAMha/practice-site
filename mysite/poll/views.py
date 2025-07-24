@@ -1,7 +1,7 @@
 from django.shortcuts import render, get_object_or_404
+from django.urls import reverse
 from django.db.models import F
 from django.http import HttpResponse, HttpResponseRedirect
-from django.urls import reverse
 from .models import Question, Choice
 
 def index(request):
@@ -13,7 +13,10 @@ def index(request):
     return render(request, template, context)
 
 def detail(request, question_id):
-    question = get_object_or_404(Question.question_text, pk=question_id)
+    question = get_object_or_404(Question, pk=question_id)
+    template = "poll/details.html"
+    context = {"question:":question}  # I'm probably not supposed to put question in there
+    return render(request, template, context)
 
 
 def result(request, question_id):
@@ -22,14 +25,17 @@ def result(request, question_id):
 
 def vote(request, question_id):
     question = get_object_or_404(Question, pk=question_id)
+    template = "poll/details.html"
+    context = {"question":question,"error message":"You didn't select a choice.",}
     try:
         selected_choice = question.choice_set.get(pk=request.POST["choice"])
         # where is .choice_set coming from
     except (KeyError, Choice.DoesNotExist):
         # pycharm is telling me Choice is unresolved reference,
         # but I assumed it was a reference to something in the database
-        return render(request, "polls/details.html", {"question":question,"error message":"You didn't select a choice.",},)
+        return render(request, template, context)
         # long as hell, but apparently the exception should still return a specified error message
     else:
         selected_choice.votes = F("Votes") + 1
         selected_choice.save()
+        return HttpResponseRedirect(reverse("poll:results", args=(question.id,)))

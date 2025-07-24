@@ -1,4 +1,4 @@
-<form action ="{% url 'poll:vote' %}" method="post">
+<form action ="{% url 'poll:vote' question.id %}" method="post">
     {% csrf_token %}
     <fieldset>
         <legend>
@@ -6,6 +6,7 @@
         </legend>
             {% if error_message %}<p><strong>{{ error_message }}</strong></p>
                 <! -- I need to go back and write the error code in views, otherwise these variables don't make sense -->
+            {% endif %}
             {% for choice in question.choice_set_all %}
                 <! -- Again, another variable I need to specify in views -->
             <input type="radio" name="choice" id="choice{{ forloop.counter }}" value="{{ choice.id }}">

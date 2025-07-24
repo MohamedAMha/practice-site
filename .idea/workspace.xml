@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54505223-a43f-4e15-b8d4-968c19431864" name="Changes" comment="I can't believe the index.html error was just &quot;poll:detail&quot; instead of &quot;detail&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/poll/templates/poll/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/poll/templates/poll/details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/poll/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/poll/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/poll/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/poll/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753389428598</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="I can't believe the index.html error was just &quot;poll:detail&quot; instead of &quot;detail&quot;">
+      <option name="closed" value="true" />
+      <created>1753389654925</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1753389654925</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
