@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54505223-a43f-4e15-b8d4-968c19431864" name="Changes" comment="Brush, all I had to do was import Choice">
+    <list default="true" id="54505223-a43f-4e15-b8d4-968c19431864" name="Changes" comment="Just finished my notes on the db part 2 part">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/poll/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/poll/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/poll/templates/poll/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/poll/templates/poll/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/poll/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/poll/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/poll/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/poll/views.py" afterDir="false" />
     </list>
@@ -100,7 +100,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753216188460</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Just finished my notes on the db part 2 part">
+      <option name="closed" value="true" />
+      <created>1753223004601</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1753223004601</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,6 +128,7 @@
     <MESSAGE value="Apparently it wasn't fleas, but scabbies.&#10;Also completed part 2-3 for django at a glance a 2nd time" />
     <MESSAGE value="A lot of errors in views.py&#10;And there is too much to wrap my head around when it comes to template form writing" />
     <MESSAGE value="Brush, all I had to do was import Choice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Brush, all I had to do was import Choice" />
+    <MESSAGE value="Just finished my notes on the db part 2 part" />
+    <option name="LAST_COMMIT_MESSAGE" value="Just finished my notes on the db part 2 part" />
   </component>
 </project>
