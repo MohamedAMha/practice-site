@@ -18,10 +18,15 @@ def detail(request, question_id):
     context = {"question":question}  # I'm probably not supposed to put question in there
     return render(request, template, context)
 
-
 def results(request, question_id):
-    response = "These are the responses to the question %s."
-    return HttpResponse(response  % question_id)  # % question_id inserts the id of question
+    question = get_object_or_404(Question, pk=question_id)
+    template = "poll/results.html"
+    context = {"question": question}
+    return render(request, template, context)
+
+# def results(request, question_id):
+#    response = "These are the responses to the question %s."
+#    return HttpResponse(response  % question_id)  # % question_id inserts the id of question
 
 def vote(request, question_id):
     question = get_object_or_404(Question, pk=question_id)

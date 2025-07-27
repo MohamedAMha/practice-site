@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54505223-a43f-4e15-b8d4-968c19431864" name="Changes" comment="Finaly fixed the BS tiny syntax/name-conflict errors.">
-      <change afterPath="$PROJECT_DIR$/mysite/poll/templates/poll/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/poll/templates/poll/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/poll/templates/poll/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/poll/templates/poll/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/poll/templates/poll/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/poll/templates/poll/results.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/poll/templates/poll/results.html" afterDir="false" />
+    <list default="true" id="54505223-a43f-4e15-b8d4-968c19431864" name="Changes" comment="Currently trying to make base.html work">
       <change beforePath="$PROJECT_DIR$/mysite/poll/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/poll/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753629524386</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Currently trying to make base.html work">
+      <option name="closed" value="true" />
+      <created>1753645896150</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1753645896150</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,6 +177,7 @@
     <MESSAGE value="I can't believe the index.html error was just &quot;poll:detail&quot; instead of &quot;detail&quot;" />
     <MESSAGE value="More problems with trying to debug views.vote" />
     <MESSAGE value="Finaly fixed the BS tiny syntax/name-conflict errors." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finaly fixed the BS tiny syntax/name-conflict errors." />
+    <MESSAGE value="Currently trying to make base.html work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Currently trying to make base.html work" />
   </component>
 </project>
