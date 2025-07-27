@@ -21,7 +21,7 @@ def detail(request, question_id):
 def results(request, question_id):
     question = get_object_or_404(Question, pk=question_id)
     template = "poll/results.html"
-    context = {"question": question}
+    context = {"question":question}
     return render(request, template, context)
 
 # def results(request, question_id):
