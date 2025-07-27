@@ -15,18 +15,18 @@ def index(request):
 def detail(request, question_id):
     question = get_object_or_404(Question, pk=question_id)
     template = "poll/details.html"
-    context = {"question:":question}  # I'm probably not supposed to put question in there
+    context = {"question":question}  # I'm probably not supposed to put question in there
     return render(request, template, context)
 
 
-def result(request, question_id):
-    response = " These are the responses to the question %s."
+def results(request, question_id):
+    response = "These are the responses to the question %s."
     return HttpResponse(response % question_id)
 
 def vote(request, question_id):
     question = get_object_or_404(Question, pk=question_id)
     template = "poll/details.html"
-    context = {"question":question,"error message":"You didn't select a choice.",}
+    context = {"question":question,"error_message":"You did not select a choice.",}
     try:
         selected_choice = question.choice_set.get(pk=request.POST["choice"])
         # where is .choice_set coming from
@@ -36,6 +36,6 @@ def vote(request, question_id):
         return render(request, template, context)
         # long as hell, but apparently the exception should still return a specified error message
     else:
-        selected_choice.votes = F("Votes") + 1
+        selected_choice.votes = F("votes") + 1
         selected_choice.save()
         return HttpResponseRedirect(reverse("poll:results", args=(question.id,)))

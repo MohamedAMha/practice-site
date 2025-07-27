@@ -7,7 +7,7 @@
             {% if error_message %}<p><strong>{{ error_message }}</strong></p>
                 <! -- I need to go back and write the error code in views, otherwise these variables don't make sense -->
             {% endif %}
-            {% for choice in question.choice_set_all %}
+            {% for choice in question.choice_set.all %}
                 <! -- Again, another variable I need to specify in views -->
             <input type="radio" name="choice" id="choice{{ forloop.counter }}" value="{{ choice.id }}">
             {% comment %}
