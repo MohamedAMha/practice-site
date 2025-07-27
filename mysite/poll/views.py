@@ -14,18 +14,18 @@ def index(request):
 
 def detail(request, question_id):
     question = get_object_or_404(Question, pk=question_id)
-    template = "poll/details.html"
+    template = "poll/detail.html"
     context = {"question":question}  # I'm probably not supposed to put question in there
     return render(request, template, context)
 
 
 def results(request, question_id):
     response = "These are the responses to the question %s."
-    return HttpResponse(response % question_id)
+    return HttpResponse(response  % question_id)  # % question_id inserts the id of question
 
 def vote(request, question_id):
     question = get_object_or_404(Question, pk=question_id)
-    template = "poll/details.html"
+    template = "poll/detail.html"
     context = {"question":question,"error_message":"You did not select a choice.",}
     try:
         selected_choice = question.choice_set.get(pk=request.POST["choice"])
