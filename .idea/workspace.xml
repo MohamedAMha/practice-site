@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54505223-a43f-4e15-b8d4-968c19431864" name="Changes" comment="Do CSS for results page, then HTML + CSS for index">
-      <change afterPath="$PROJECT_DIR$/mysite/poll/templates/poll/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/poll/templates/poll/base.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/poll/templates/poll/base.scss" afterDir="false" />
+    <list default="true" id="54505223-a43f-4e15-b8d4-968c19431864" name="Changes" comment="Stuck on making the CSS file work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/poll/templates/poll/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/poll/static/poll/base.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/poll/templates/poll/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/poll/templates/poll/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/poll/templates/poll/results.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/poll/templates/poll/results.html" afterDir="false" />
     </list>
@@ -50,6 +48,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\monke\PycharmProjects\django_practice_2\mysite\poll\static\poll" />
       <recent name="C:\Users\monke\PycharmProjects\django_practice_2\mysite\poll\templates\poll" />
     </key>
   </component>
@@ -173,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753647518378</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Stuck on making the CSS file work">
+      <option name="closed" value="true" />
+      <created>1753710377280</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1753710377280</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,6 +207,7 @@
     <MESSAGE value="Finaly fixed the BS tiny syntax/name-conflict errors." />
     <MESSAGE value="Currently trying to make base.html work" />
     <MESSAGE value="Do CSS for results page, then HTML + CSS for index" />
-    <option name="LAST_COMMIT_MESSAGE" value="Do CSS for results page, then HTML + CSS for index" />
+    <MESSAGE value="Stuck on making the CSS file work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stuck on making the CSS file work" />
   </component>
 </project>

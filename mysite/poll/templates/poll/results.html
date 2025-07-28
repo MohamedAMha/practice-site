@@ -1,9 +1,8 @@
 {% extends "poll/base.html" %}
-{% load static %}
-<head>
-  <link rel="stylesheet" href="{% static 'poll/base.css' %}">
-  {% block title %}Results{% endblock %}
-</head>
+{% block h1 %} Results {% endblock %}
+
+{# I will be needing a 2nd css file to fix the specifics #}
+{# but idk if that will just make it even messier #}
 
 {% block content %}
     <div class="row">

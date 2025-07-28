@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>{% block title %}My site{% endblock %}</title>
+  {# CSS, images are considered static files and require this tag #}
+  {% load static %}<link rel="stylesheet" href="{% static 'poll/base.css' %}">
+  {% block title %}{% endblock %}
 </head>
 <body>
   <div class="header">
-    <h1>My Website</h1>
+    {% block h1 %}My Website{% endblock %}
   </div>
 
   <main>
