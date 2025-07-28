@@ -1,0 +1,61 @@
+$header-bg: hsl(151, 29%, 40%);
+$header-font: darken($header-bg, 50%);
+$bg-color1: hsl(0, 0%, 90%);
+$p-font1: darken($bg-color1, 50%);
+$bg-color2: hsl(0, 0%, 100%);
+$p-font2: darken($bg-color2, 50%);
+
+
+* {
+    box-sizing:border-box;
+}
+.header {
+  padding:60px;
+  text-align:center;
+  background-color:$header-bg;
+  color:$header-font;
+}
+.navbar {
+  display:flex;
+  background-color:black;
+}
+
+.navbar a {
+  font:20px;
+  text-align:center;
+  text-decoration:none;
+  padding:10px 15px;
+  color:white;
+}
+
+.navbar a:hover {
+  background-color:#ddd;
+  color:black;
+}
+.row {
+  display:flex;
+  flex-wrap:wrap;
+}
+.left {
+  flex:30%;
+  padding:20px;
+  background-color:$bg-color1;
+  color:$p-font1;
+}
+
+.height-modified {
+  min-height:89vh;
+}
+
+.right {
+  flex:70%;
+  padding:20px;
+  background-color:$bg-color2;
+  color:$p-font2;
+}
+
+@media screen and (max-width: 700px) {
+  .row, navbar {
+    flex-direction: column;
+  }
+}

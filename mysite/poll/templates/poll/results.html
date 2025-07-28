@@ -1,14 +1,25 @@
 {% extends "poll/base.html" %}
-
-{% block title %}Results{% endblock %}
+{% load static %}
+<head>
+  <link rel="stylesheet" href="{% static 'poll/base.css' %}">
+  {% block title %}Results{% endblock %}
+</head>
 
 {% block content %}
-  <h1>{{ question.question_text }}</h1>
-  <ul>
-      {% for choice in question.choice_set.all %}
-          {# choice_set.all comes from view, and in views it comes from db #}
-          <li>{{ choice.choice_text}} -- {{ choice.votes }}vote{{ choice.votes|pluralize }}</li>
-      {% endfor %}
-  </ul>
-  <a href="{% url 'poll:detail' question.id %}">Vote again?</a>
+    <div class="row">
+      <div class="left">
+        <h2> Dw about it </h2>
+      </div>
+      <div class="right">
+        <h1> Main results </h1>
+            <h1>{{ question.question_text }}</h1>
+        <ul>
+            {% for choice in question.choice_set.all %}
+                {# choice_set.all comes from view, and in views it comes from db #}
+                <li>{{ choice.choice_text}} -- {{ choice.votes }}vote{{ choice.votes|pluralize }}</li>
+            {% endfor %}
+        </ul>
+        <a href="{% url 'poll:detail' question.id %}">Vote again?</a>
+      </div>
+    </div>
 {% endblock %}
