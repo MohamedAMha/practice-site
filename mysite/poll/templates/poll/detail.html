@@ -1,3 +1,7 @@
+{% extends "poll/base.html" %}
+{% block h1 %}<h1 style="font:30px;">Voting Page</h1>{% endblock %}
+
+{% block content %}
 <form action ="{% url 'poll:vote' question.id %}" method="post">
     {% csrf_token %}
     <fieldset>
@@ -16,3 +20,4 @@
     </fieldset>
     <input type="submit" value="Vote">
 </form>
+{% endblock %}
