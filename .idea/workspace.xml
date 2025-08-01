@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54505223-a43f-4e15-b8d4-968c19431864" name="Changes" comment="Static css file now works">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/poll/templates/poll/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/poll/templates/poll/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/poll/templates/poll/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/poll/templates/poll/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="54505223-a43f-4e15-b8d4-968c19431864" name="Changes" comment="I'm done fucking around with this project.&#10;Gonna switch over to the 2nd tutorial to learn more about templating." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753744208979</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="I'm done fucking around with this project.&#10;Gonna switch over to the 2nd tutorial to learn more about templating.">
+      <option name="closed" value="true" />
+      <created>1754054085358</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1754054085358</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,6 +228,7 @@
     <MESSAGE value="Do CSS for results page, then HTML + CSS for index" />
     <MESSAGE value="Stuck on making the CSS file work" />
     <MESSAGE value="Static css file now works" />
-    <option name="LAST_COMMIT_MESSAGE" value="Static css file now works" />
+    <MESSAGE value="I'm done fucking around with this project.&#10;Gonna switch over to the 2nd tutorial to learn more about templating." />
+    <option name="LAST_COMMIT_MESSAGE" value="I'm done fucking around with this project.&#10;Gonna switch over to the 2nd tutorial to learn more about templating." />
   </component>
 </project>
