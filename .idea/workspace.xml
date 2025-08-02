@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54505223-a43f-4e15-b8d4-968c19431864" name="Changes" comment="I'm done fucking around with this project.&#10;Gonna switch over to the 2nd tutorial to learn more about templating." />
+    <list default="true" id="54505223-a43f-4e15-b8d4-968c19431864" name="Changes" comment="I'm done fucking around with this project.&#10;Gonna switch over to the 2nd tutorial to learn more about templating.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/poll/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/poll/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
