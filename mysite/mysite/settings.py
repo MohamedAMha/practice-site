@@ -7,14 +7,14 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
-    'poll',
+    'TWCSS',  # exists primarily to fuck around with tailwind, without creating new project
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'poll.apps.PollConfig',
+    'poll.apps.PollConfig',  # it was redundant for me to add "poll,"; since this was here
 ]
 
 MIDDLEWARE = [

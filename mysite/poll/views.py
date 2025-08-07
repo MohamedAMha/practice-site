@@ -4,6 +4,7 @@ from django.db.models import F
 from django.http import HttpResponseRedirect
 from .models import Question, Choice
 
+
 def index(request):
     latest_question_list = Question.objects.order_by("-pub_date")[:5]
     template = "poll/index.html"
@@ -21,6 +22,10 @@ def results(request, question_id):
     template = "poll/results.html"
     context = {"question":question}
     return render(request, template, context)
+
+def CSS_practice(request):
+    template = "poll/practice_css.html"
+    return render(request, template)
 
 # def results(request, question_id):
 #    response = "These are the responses to the question %s."

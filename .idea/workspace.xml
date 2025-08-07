@@ -5,7 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54505223-a43f-4e15-b8d4-968c19431864" name="Changes" comment="Tryna get Tailwind to work">
-      <change afterPath="$PROJECT_DIR$/mysite/mysite/static/dist/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/TWCSS/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/TWCSS/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/TWCSS/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/TWCSS/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/TWCSS/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/TWCSS/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/TWCSS/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/TWCSS/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/poll/templates/poll/practice_css.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/templates/case.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/poll/templates/poll/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/poll/templates/poll/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/poll/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/poll/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/poll/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/poll/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,15 +58,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "e5110524",
-    "ignore.virus.scanning.warn.message": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;234fc74f&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\monke\PycharmProjects\django_practice_2\mysite\poll" />
