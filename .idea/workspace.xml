@@ -5,23 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54505223-a43f-4e15-b8d4-968c19431864" name="Changes" comment="Tryna get Tailwind to work">
-      <change afterPath="$PROJECT_DIR$/mysite/TWCSS/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/TWCSS/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/TWCSS/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/TWCSS/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/TWCSS/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/TWCSS/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/TWCSS/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/TWCSS/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/poll/templates/poll/practice_css.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/mysite/static/dist/TWCSS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/mysite/static/src/TWCSS.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mysite/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/templates/case.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/poll/templates/poll/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/poll/templates/poll/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/poll/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/poll/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/poll/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/poll/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/poll/templates/poll/practice_css.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/poll/templates/poll/practice_css.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,12 +51,14 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;234fc74f&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;tailwindcss&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\monke\PycharmProjects\django_practice_2\mysite\mysite\static\src" />
+      <recent name="C:\Users\monke\PycharmProjects\django_practice_2\mysite\poll\static\poll\src" />
       <recent name="C:\Users\monke\PycharmProjects\django_practice_2\mysite\poll" />
       <recent name="C:\Users\monke\PycharmProjects\django_practice_2\mysite\poll\static\poll" />
       <recent name="C:\Users\monke\PycharmProjects\django_practice_2\mysite\poll\templates\poll" />
@@ -234,7 +224,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754340050431</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Tryna get Tailwind to work">
+      <option name="closed" value="true" />
+      <created>1754576298094</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1754576298094</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

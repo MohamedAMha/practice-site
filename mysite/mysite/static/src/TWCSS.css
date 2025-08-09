@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+/* Custom styles */
+body {
+  @apply bg-gray-50 text-gray-800 font-sans leading-relaxed;
+}
+
+#sidebar {
+  @apply bg-blue-100 p-4 w-full md:w-1/4 float-left;
+}
+
+#sidebar ul {
+  @apply space-y-2;
+}
+
+#sidebar a {
+  @apply text-blue-700 hover:underline block;
+}
+
+#content {
+  @apply p-6 md:ml-4;
+}
+
+section {
+  @apply p-6 mb-6 bg-white shadow-md rounded-md;
+}
+
+section h2 {
+  @apply text-2xl font-semibold mb-4 text-blue-800;
+}
+
+section p, section li {
+  @apply text-base mb-2;
+}
+
+ul {
+  @apply list-disc pl-6;
+}
+
+blockquote {
+  @apply border-l-4 border-blue-400 pl-4 italic my-4 text-gray-700;
+}
+
+footer {
+  @apply text-sm text-gray-500 mt-1;
+}
+
+details {
+  @apply mb-4 cursor-pointer;
+}
+
+summary {
+  @apply font-medium text-blue-700 hover:underline;
+}

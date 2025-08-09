@@ -8,6 +8,6 @@
     "tailwindcss": "^4.1.11"
   },
   "scripts": {
-    "watch:css": "npx @tailwindcss/cli -i ./mysite/static/src/styles.css -o ./mysite/static/dist/styles.css --watch"
+    "watch:css": "npx @tailwindcss/cli -i C:/Users/monke/PycharmProjects/django_practice_2/mysite/mysite/static/src/TWCSS.css -o C:/Users/monke/PycharmProjects/django_practice_2/mysite/mysite/static/dist/TWCSS.css --watch"
   }
 }

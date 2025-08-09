@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% load static %}
-    <link rel="stylesheet" href="{% static 'dist/style.css' %}">
+    <link rel="stylesheet" href="{% static '/dist/TWCSS.css' %}">
     <title>{% block title %}My amazing site{% endblock %}</title>
 </head>
 
@@ -15,9 +17,46 @@
         </ul>
         {% endblock %}
     </div>
+    <section>
+        <h2>About This Site</h2>
+        <p>This website serves as a basic template to demonstrate the structure of a clean and functional HTML layout.</p>
+    </section>
+
+    <section>
+      <h2>Features</h2>
+      <ul>
+        <li>Responsive design using viewport meta tag</li>
+        <li>Clean HTML5 semantic structure</li>
+        <li>Header, navigation, main content, and footer sections</li>
+      </ul>
+    </section>
 
     <div id="content">
         {% block content %}{% endblock %}
     </div>
+    <section>
+        <h2>Testimonials</h2>
+        <blockquote>
+            "This site helped me get started with web development. It's clean, simple, and easy to understand."
+            <footer>— Jane Doe, Student</footer>
+        </blockquote>
+        <blockquote>
+            "Exactly what I needed for a quick project. The structure is intuitive and well-organized."
+            <footer>— John Smith, Developer</footer>
+        </blockquote>
+    </section>
+
+    <section>
+        <h2>FAQ</h2>
+        <details>
+        <summary>What is this website about?</summary>
+        <p>This is a basic HTML template showcasing good structure and semantic elements.</p>
+        </details>
+        <details>
+            <summary>Can I use this as a starting point?</summary>
+            <p>Just vibe code the basics of HTML yerp yerp.</p>
+        </details>
+    </section>
+
 </body>
 </html>
