@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54505223-a43f-4e15-b8d4-968c19431864" name="Changes" comment="Tryna get Tailwind to work">
-      <change afterPath="$PROJECT_DIR$/mysite/mysite/static/dist/TWCSS.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/mysite/static/src/TWCSS.css" afterDir="false" />
+    <list default="true" id="54505223-a43f-4e15-b8d4-968c19431864" name="Changes" comment="Finally made it past input file doesn't exist">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/poll/templates/poll/practice_css.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/poll/templates/poll/practice_css.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -232,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754576298094</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Finally made it past input file doesn't exist">
+      <option name="closed" value="true" />
+      <created>1754743419862</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1754743419862</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,6 +269,7 @@
     <MESSAGE value="Static css file now works" />
     <MESSAGE value="I'm done fucking around with this project.&#10;Gonna switch over to the 2nd tutorial to learn more about templating." />
     <MESSAGE value="Tryna get Tailwind to work" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tryna get Tailwind to work" />
+    <MESSAGE value="Finally made it past input file doesn't exist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finally made it past input file doesn't exist" />
   </component>
 </project>
