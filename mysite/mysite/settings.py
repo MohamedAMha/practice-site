@@ -1,4 +1,5 @@
 from pathlib import Path
+import os
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-yuf*_)&lb(va$7b@&je!*k4)h-85#^j^*17es#s&x)2+b(@afr'
@@ -96,7 +97,7 @@ STATIC_URL = 'static/'
 
 STATICFILES_DIRS = [BASE_DIR / "mysite" / "static"]  # used for development
 
-STATIC_ROOT = BASE_DIR / "staticfiles"  # used for deployment
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # used for deployment
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
